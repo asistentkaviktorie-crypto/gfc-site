@@ -1,5 +1,5 @@
 (function(){
-  var EMAIL = 'greenfuturecapitalspain@gmail.com';
+  var EMAIL = 'invest@greenfuturecapital.es';
   var all = (window.GFC_LISTINGS || []).filter(function(x){ return x && x.published; });
   var lang = document.documentElement.lang || 'en';
   var T = {
