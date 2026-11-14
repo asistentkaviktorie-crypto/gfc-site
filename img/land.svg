@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid slice">
+<rect width="800" height="520" fill="#12343a"/>
+<rect y="380" width="800" height="140" fill="#1f6f6b"/>
+<path d="M0 380 q200 -30 400 0 t400 0 v10 h-800z" fill="#e8d2a6"/>
+<ellipse cx="300" cy="210" rx="260" ry="150" fill="none" stroke="#c9a66b" stroke-opacity="0.35" stroke-width="1.5"/><ellipse cx="306" cy="206" rx="230" ry="132" fill="none" stroke="#c9a66b" stroke-opacity="0.43" stroke-width="1.5"/><ellipse cx="312" cy="202" rx="200" ry="114" fill="none" stroke="#c9a66b" stroke-opacity="0.51" stroke-width="1.5"/><ellipse cx="318" cy="198" rx="170" ry="96" fill="none" stroke="#c9a66b" stroke-opacity="0.59" stroke-width="1.5"/><ellipse cx="324" cy="194" rx="140" ry="78" fill="none" stroke="#c9a66b" stroke-opacity="0.67" stroke-width="1.5"/><ellipse cx="330" cy="190" rx="110" ry="60" fill="none" stroke="#c9a66b" stroke-opacity="0.75" stroke-width="1.5"/><ellipse cx="336" cy="186" rx="80" ry="42" fill="none" stroke="#c9a66b" stroke-opacity="0.83" stroke-width="1.5"/><ellipse cx="342" cy="182" rx="50" ry="24" fill="none" stroke="#c9a66b" stroke-opacity="0.91" stroke-width="1.5"/>
+<polygon points="430,150 610,170 640,300 470,320" fill="#c9a66b" fill-opacity=".14" stroke="#f1dfb8" stroke-width="2.5" stroke-dasharray="10 7"/>
+<g fill="#f1dfb8"><circle cx="430" cy="150" r="5"/><circle cx="610" cy="170" r="5"/><circle cx="640" cy="300" r="5"/><circle cx="470" cy="320" r="5"/></g>
+<g stroke="#eaf7f4" stroke-opacity=".4" stroke-width="2"><line x1="80" y1="430" x2="300" y2="430"/><line x1="420" y1="456" x2="720" y2="456"/><line x1="160" y1="486" x2="380" y2="486"/></g>
+<g stroke="#f1dfb8" stroke-width="2" fill="none"><line x1="700" y1="60" x2="700" y2="110"/><polyline points="690,74 700,60 710,74"/></g>
+</svg>

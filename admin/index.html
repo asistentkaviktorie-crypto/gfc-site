@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Staff: assets cleared for display | Green Future Capital</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+<header class="site"><div class="wrap bar"><a class="brand" href="../index.html">Green Future Capital <small>Staff</small></a></div></header>
+<main class="admin"><div class="wrap">
+<p class="label">Staff page</p>
+<h1>Assets cleared for display</h1>
+<p>Add only assets whose owner has agreed in writing to open presentation. Everything else stays off the site and is presented on request.</p>
+<h2>How to publish</h2>
+<ol>
+<li>Fill in the form and press “Add asset to the list”. Tick “Show on the site” when the asset may be displayed.</li>
+<li>Press “Download listings.js”.</li>
+<li>Upload the file to the folder <strong>data</strong> on the server, replacing the old one. Upload the photo to <strong>img/listings</strong>.</li>
+</ol>
+<p>Nothing changes on the public site until the file is uploaded.</p>
+<h2>Asset</h2>
+<form id="f">
+<label>Reference, for example GFC-H-001<input type="text" name="ref"></label>
+<label>Page<select name="category"><option value="hotel">Hotels</option><option value="land">Land</option><option value="residential">Residential</option></select></label>
+<label>Location, for example Estepona<input type="text" name="location"></label>
+<label>Size, for example 180 keys or 42,000 m²<input type="text" name="size"></label>
+<label>Price guide, for example €40–50 million or On request<input type="text" name="price"></label>
+<label>Photo file name in img/listings, for example gfc-h-001.jpg (optional)<input type="text" name="photo"></label>
+<label>Title (EN) — required<input type="text" name="title_en"></label><label>Short description (EN)<textarea name="summary_en"></textarea></label><label>Title (ES)<input type="text" name="title_es"></label><label>Short description (ES)<textarea name="summary_es"></textarea></label><label>Title (DE)<input type="text" name="title_de"></label><label>Short description (DE)<textarea name="summary_de"></textarea></label><label>Title (RU)<input type="text" name="title_ru"></label><label>Short description (RU)<textarea name="summary_ru"></textarea></label><label>Title (CS)<input type="text" name="title_cs"></label><label>Short description (CS)<textarea name="summary_cs"></textarea></label>
+<label class="check wide"><input type="checkbox" name="published"> Show on the site</label>
+<div class="wide" style="display:flex;gap:10px;flex-wrap:wrap"><button class="primary" id="save" type="submit">Add asset to the list</button><button id="reset" type="button">Clear form</button></div>
+</form>
+<p class="msg" id="msg" role="status"></p>
+<h2>Current list</h2>
+<div class="rows" id="list"></div>
+<h2>File for the server</h2>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px"><button class="primary" id="download" type="button">Download listings.js</button><button id="copy" type="button">Copy text</button></div>
+<textarea id="out" readonly aria-label="Content of data/listings.js"></textarea>
+</div></main>
+<script src="../data/listings.js"></script>
+<script src="../js/admin.js"></script>
+</body>
+</html>
